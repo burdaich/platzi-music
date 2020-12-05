@@ -7,7 +7,7 @@
         <item name="colorOnPrimary">@color/white</item>
     </style>
 
-    <style name="Theme.PlatziMusic.EditTextStyle" parent="Theme.PlatziMusic">
-        <item name="android:textSize">48sp</item>
+    <style name="Theme.PlatziMusic.Red" parent="Theme.PlatziMusic">
+        <item name="android:background">#FFFF0000</item>
     </style>
 </resources>
