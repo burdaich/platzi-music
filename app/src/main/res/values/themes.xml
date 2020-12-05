@@ -5,9 +5,11 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
+        <item name="android:textSize">16sp</item>
+
     </style>
 
-    <style name="Theme.PlatziMusic.Red" parent="Theme.PlatziMusic">
-        <item name="android:background">#FFFF0000</item>
+    <style name="Theme.PlatziMusic.EditTextStyle" parent="Theme.PlatziMusic">
+        <item name="android:layout_margin">12dp</item>
     </style>
 </resources>

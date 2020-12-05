@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="160dp"
-        android:layout_height="120dp"
+        android:layout_width="@dimen/width_logo"
+        android:layout_height="@dimen/height_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -18,10 +18,9 @@
 
     <EditText
         android:id="@+id/etLoginUsername"
-        style="@style/EditTextStyle"
+        style="@style/Theme.PlatziMusic.EditTextStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="12dp"
         android:layout_marginTop="39dp"
         android:drawableStart="@drawable/vector_person"
         android:hint="@string/hint_user"
@@ -32,10 +31,9 @@
 
     <EditText
         android:id="@+id/etLoginPassword"
-        style="@style/EditTextStyle"
+        style="@style/Theme.PlatziMusic.EditTextStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="12dp"
         android:drawableStart="@drawable/vector_lock"
         android:hint="@string/hint_password"
         app:layout_constraintEnd_toEndOf="parent"
